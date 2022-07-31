@@ -190,6 +190,7 @@ button {
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-mail {
@@ -210,6 +211,7 @@ button {
 
 
     color: var(--secondary-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -280,6 +282,7 @@ button {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ============description============== */
@@ -426,6 +429,8 @@ button {
     height: 44px;
     justify-content: center;
     align-items: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -548,6 +553,8 @@ button {
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-mail,
@@ -556,6 +563,7 @@ button {
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-map:hover,
@@ -596,6 +604,8 @@ button {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
@@ -623,8 +633,11 @@ button {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
+   
 }
+
+
+
 
 .modal {
     position: absolute;
@@ -650,8 +663,8 @@ button {
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    
 }
 
 
@@ -661,7 +674,7 @@ button {
 
 }
 .modal-close-button-icon {
-    transition: fill transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-buttom:hover .modal-close-button-icon,
@@ -699,7 +712,7 @@ button {
     line-height: 1.63;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .portfolio-btn:hover,
